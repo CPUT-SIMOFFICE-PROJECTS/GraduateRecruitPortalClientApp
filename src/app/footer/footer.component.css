@@ -1,7 +1,9 @@
-.footer{
-    height: 400px;
+.footer {
+    height: 100px; 
     background-color: var(--secondary);
     text-align: center;
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .footer h1{
