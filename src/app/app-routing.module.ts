@@ -19,6 +19,7 @@ import { RecruitmentListComponent } from './recruitment-list/recruitment-list.co
 import { BrowseCandidatesComponent } from './browse-candidates/browse-candidates.component';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './utility/authGuard';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'graduate-homepage', pathMatch: 'full' },
@@ -40,7 +41,8 @@ const routes: Routes = [
   { path: 'vacancy-post', component: VacancyPostComponent },
   { path: 'recruitment-list', component: RecruitmentListComponent },
   { path: 'browse', component: BrowseCandidatesComponent },
-  { path: 'vacancy-pdf-view', component: VacancyPdfViewComponent }
+  { path: 'vacancy-pdf-view', component: VacancyPdfViewComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
